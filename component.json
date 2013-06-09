@@ -1,0 +1,30 @@
+{
+  "name": "white-noise",
+  "repo": "web-audio-components/white-noise",
+  "description": "A simple white noise generator",
+  "version": "0.0.1",
+  "author": "Jordan Santell <jsantell@gmail.com>",
+  "twitter": "@jsantell",
+  "keywords": [
+    "web-audio",
+    "generator",
+    "white-noise",
+    "noise",
+    "static",
+    "fuzz"
+  ],
+  "dependencies": {
+  },
+  "development": {
+    "web-audio-components/rack" : "*",
+    "jsantell/allen" : "*",
+    "component/event" : "*"
+  },
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ],
+  "web-audio": {
+    "type": "generator"
+  }
+}
